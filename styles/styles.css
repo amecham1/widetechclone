@@ -1,5 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
 
 
+h1,h2,h3,h4,h5,h6,p{
+font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+.main-page{
+  width: 100%;
+  height: 41vh;
+  background-image: url('../styles/img/wot-masthead-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4vh;
+  /*margin-top: 12vh;*/
+
+}
+
+.filler {
+  height: 12vh;
+  width: 100%;
+}
 .fixed-nav-bar{
   width: 100%;
   height: 12vh;
@@ -32,15 +55,59 @@
 .ham{
   width: 10vw;
   height: 12vh;
-  margin-top: calc(4vh - 10px;);
+  margin-top: 2vh;
   margin-right: 20px;
 
 }
 .ham img{
   width: 100%;
 }
+.main-page{
+  width: 100%;
+  height: 41vh;
+  background-image: url('../styles/img/wot-masthead-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4vh;
+  color:white;
+  text-align: center;
+  position: relative;
+}
+.your-digital{
+  font-size: 1.4em;
+}
+.workshop{
+  width: 50%;
+  font-size: 4.4em;
+  line-height: 1.1;
+}
+.block{
+content: " ";
+display: block;
+background: #fff;
+height: 9px;
+width: 12%;
+position: absolute;
+}
+.left-side{
+  left: 15%;
+  top: 130px;
+}
+.right-side{
+  right: 15%;
+  top: 130px;
+}
+.building{
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+.solutions{
+  color: #FF803A;
+  font-size: 1.1em;
 
-@media(min-width:764px){
+}
+
+@media(min-width:768px){
   .fixed-nav-bar ul{
     opacity: 1;
   }
